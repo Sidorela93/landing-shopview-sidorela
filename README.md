@@ -39,7 +39,6 @@ Internet connection (for loading Bootstrap, Google Fonts, etc.)
 - Google Tag Manager (placeholder included)
 - Responsive Design (desktop & mobile)
 
----
 
 ## 📁 Structure
 - `index.php` – entry point that includes all sections
@@ -49,7 +48,11 @@ Internet connection (for loading Bootstrap, Google Fonts, etc.)
 - `contact-form.php` – contact form and its simulated handler
 - `head.php`, `header.php`, `footer.php` – layout base components
 
----
+Responsive Landing Page
+Converted the provided Figma design into a fully responsive landing page.
+Used HTML5, CSS3 (with Bootstrap 5), PHP includes for modular layout.
+Fully compatible on desktop and mobile.
+
 1.
 ![image](https://github.com/user-attachments/assets/46120c2a-b3dd-4401-a983-9ff97af7f53a)
 ![image](https://github.com/user-attachments/assets/8162cbf9-79c3-4d03-85bd-395c79308d21)
@@ -87,16 +90,6 @@ Internet connection (for loading Bootstrap, Google Fonts, etc.)
 13.![image](https://github.com/user-attachments/assets/221c8c87-1d10-4fb2-bc30-235383eafd8d)
 
 
-14.![image](https://github.com/user-attachments/assets/b41344b3-4674-4595-bbea-ad5dbe1f57c6)
-
-![image](https://github.com/user-attachments/assets/16177c68-10ea-4f3e-88c0-e21ccb9c263a)
-![image](https://github.com/user-attachments/assets/27293227-0da6-41ce-b31f-5facf640a7e3)
-
-![image](https://github.com/user-attachments/assets/b1ce79ae-f2d1-48d7-b625-609f89645d15)
-
-
-
-
 ## 📩 Contact Form Implementation – Summary & Validation
 
 ### ✅ 1. Contact Form Section
@@ -107,6 +100,17 @@ Internet connection (for loading Bootstrap, Google Fonts, etc.)
   - Email
   - Message
   - Consent (required checkbox)
+  ![image](https://github.com/user-attachments/assets/b41344b3-4674-4595-bbea-ad5dbe1f57c6)
+
+![image](https://github.com/user-attachments/assets/16177c68-10ea-4f3e-88c0-e21ccb9c263a)
+![image](https://github.com/user-attachments/assets/27293227-0da6-41ce-b31f-5facf640a7e3)
+
+![image](https://github.com/user-attachments/assets/b1ce79ae-f2d1-48d7-b625-609f89645d15)
+Located in sections/contact-form.php
+
+Submitted via POST to contact-form.php and returns a confirmation message.
+
+Validation included.
 
 ### ✅ 2. Form Submission Simulation
 - After form submission, a confirmation message is shown with user input.
@@ -144,32 +148,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 ```
 - Requires `gtag.js` to be initialized in `head.php` (add real tracking ID if needed).
 
----
 
 ## 🕒 Time Spent
 - ~10–12 hours to convert the Figma design into a modular, responsive, working layout with form integration and tracking simulation.
 
----
-
-## ✅ What Works
-- Fully responsive layout across devices
-- Clean and modular PHP structure
-- Contact form logic working with submission feedback
-- Google Tag Manager & GA4 simulation scripts included
-
----
-
-## 🚀 What I'd Improve
-- Add a real submission handling system (PHPMailer, CMS form API, etc.)
-- Add performance optimizations (lazy loading images, minified CSS/JS)
-- Integrate with a CMS like WordPress/ACF for scalable use
-
----
-
-## 📎 Live/Preview Link
-*(Add GitHub Pages or Google Drive preview link here)*
-
----
-
 ## ✨ Developed by
-**Sidorela** – Front-End Developer Test Assignment
+**Sidorela** 
