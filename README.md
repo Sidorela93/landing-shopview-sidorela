@@ -1,4 +1,17 @@
-# ShopView Landing Page
+# Landing ShopView
+
+Landing page responsive per la presentazione di un servizio digitale.  
+Realizzata con HTML5 e CSS3, ottimizzata per mobile e desktop.
+
+## Tecnologie utilizzate
+- HTML5
+- CSS3
+- Responsive design
+
+## Funzionalità
+- Layout chiaro e moderno
+- Sezioni informative e call-to-action
+- Adatta a progetti promozionali
 
 Creative front-end test to build a responsive landing page based on provided UI guidelines and business goals.
 https://www.figma.com/design/OQk8JabZ2OkKHxftNc49B6/Untitled?node-id=0-1&t=Dtzs1zrSSgg3kqeW-1
@@ -153,5 +166,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 ## 🕒 Time Spent
 - ~10–12 hours to convert the Figma design into a modular, responsive, working layout with form integration and tracking simulation.
 
-## ✨ Developed by
-**Sidorela** 
+
+
+## Autore
+Sidorela Demiris
+
